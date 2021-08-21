@@ -17,3 +17,4 @@ function fibonacci(limit) {
 }
 
 console.log(fibonacci(3));
+alert("coba");
