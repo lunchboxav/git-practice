@@ -4,8 +4,75 @@ theme: gaia
 _class: invert
 ---
 
-# Mengenal Git dan GitHub
+# Berkenalan dengan Open Source
 Adityo Pratomo (@kotakmakan)
+
+---
+
+# Open Source Software
+
+Open Source Software adalah jenis perangkat lunak yang akses terhadap kodenya diberikan untuk konsumsi publik
+
+Publik bisa menggunakan software ini, memodifikasi isinya, berkontribusi terhadap pengembangannya, atau mendistribusikannya sesuai aturan yang berlaku
+
+---
+
+# Open Source vs Closed Source
+
+![](closed-source.png)
+
+---
+
+# Open Source vs Closed Source
+
+![](open-source.png)
+
+---
+
+# Kenapa Open Source?
+
+- __Kekuatan sosial__: software bisa dikembangkan secara kolaboratif untuk kepentingan khalayak ramai
+- __Mudah diakses__: hal fundamental yang seharusnya bisa digunakan semua orang, untuk menghasilkan manfaat
+- __Memperluas kesempatan belajar__: melalui kolaborasi dengan khalayak yang lebih ramai, semua bisa mengembangkan dirinya
+
+---
+
+# Komunitas dan Open Source
+
+Komunitas berperan penting dalam keberlangsungan hidup sebuah proyek open source. Sehingga ada hubungan linear antara bagaimana sebuah proyek dikembangkan dengan bagaimana komunitas di dalamnya bisa tumbuh bersama.
+
+---
+
+# Komunitas dan Open Source
+
+Komunitas tidak hanya berisi software developer, tapi juga QA, desainer, penulis, product manager, project manager, marketing, hingga manajer komunitas
+
+Karena, sebuah proyek open source besar tidak hanya berisi kode utama, tapi juga:
+
+- dokumentasi
+- website
+- proses _build_ dan _release_ 
+
+---
+
+# Open Source !== Gratis
+
+Ada berbagai model bisnis yang didukung penuh oleh open source
+
+- Support berbayar untuk software open source
+- Versi instalasi berbayar dari software open source
+- __Open core__: versi berbayar software open source dengan berbagai tambahan fitur
+Contoh: Docker
+- __Open foundation__: komponen open source yang mendukung produk utama yang menjadi sumber penghasilan. 
+Contoh: React milik Meta
+
+---
+
+# Mengembangkan Karir dari Open Source 🚀
+
+- Berpartisipasi dalam sebuah proyek open source adalah jalan tol untuk mengakselerasi karir
+- Kita jadi membuka banyak relasi, dengan kinerja yang terbukti dan cara berkomunikasi yang turut di-_upgrade_
+- Lebih efisien dari LinkedIn 😁
 
 ---
 
@@ -29,9 +96,46 @@ Pada dasarnya, saat sebuah proyek sudah diumumkan berbentuk open source, semua o
 
 ---
 
-# Open Source
+# Lisensi Open Source
 
-"*In open source, you don't wait. You contribute*"
+ADa beragam lisensi dalam Open Source, seperti MIT, BSD, GPL, LGPL, dan lainnya. Total ada sekitar 80 lisensi.
+
+Untuk perbandingan lisensi yang sering digunakan, kunjungi link berikut
+
+[fossa.com](https://fossa.com/blog/content/images/2021/01/license-permissions.png)
+
+---
+
+![](https://fossa.com/blog/content/images/2021/01/license-permissions.png)
+
+---
+
+# Menjalankan Proyek Open Source
+
+- Inisiasi kode awal + README + Lisensi
+- Undang kontribusi
+    - Tambah dan kelola issue
+    - Tambahkan panduan kontribusi
+    - Promosikan project
+- Selalu perbarui kode (refactor, tambahkan tes, update library)
+- Kelola komunitas
+    - Review PR, diskusi di issue
+    - Promosikan kontributor menjadi maintainer
+
+---
+
+# Hands On: Memulai Proyek Open Source
+
+- Buat repository baru di GitHub
+- Tambahkan lisensi
+- Tambahkan README di kode lokal
+- Upload kode ke repository di GitHub
+
+---
+
+# Kontribusi di Open Source
+
+> *In open source, you don't wait. You contribute*
 
 ---
 
@@ -92,7 +196,7 @@ Pada dasarnya, saat sebuah proyek sudah diumumkan berbentuk open source, semua o
 
 - Saat sedang menambahkan perubahan, seringkali kita harus mensinkronkan kode dengan kode terbaru di repository upstream atau bahkan dengan branch lain
 - Untuk itu kita bisa melakukan git pull untuk mensinkronkan perubahan ini
-- `git pull {nama repository remote} {nama branch remote}
+- `git pull {nama repository remote} {nama branch remote}`
 
 ---
 
